@@ -1,3 +1,4 @@
 name: Michael Doherty
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+verbose: true

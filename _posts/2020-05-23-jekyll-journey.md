@@ -2,6 +2,7 @@
 layout: post
 title: "Jekyll Journey"
 date: 2020-05-23
+category: Journal
 ---
 
 I haven't looked at this site for a few months but I have lots I want to blog about so I decided to revisit.
