@@ -2,3 +2,10 @@ name: Michael Doherty
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 verbose: true
+collections:
+  travel:
+    output: true
+    permalink: /travel/:path/
+  crypto:
+    output: true
+    permalink: /crypto/:path/
