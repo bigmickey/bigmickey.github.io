@@ -13,4 +13,6 @@ While I am grateful to Jonathan McGlone for writing that eminently understandabl
 
 I am currently messing around with a newly generated site to see what the differences are. My next challenge will be figuring out how to bring this site up to speed with all the new Jekyll content and structures.  Wish me luck!
 
+Quick update for today - I manually copied missing files from a newly generated jekyll site (like Gemfile and Gemfile.lock), edited _config.yml to add a bunch of stuff from the newly generated site's _config.yml and removed some of the previous sites' structure like the _layout, _includes and css directories.  Maybe I will need to add them back in later.  For now the site has quite a different look and feel .. continuing with the video tutorials above to undertand the changes and how I can modify it to my needs.
+
 (I also just learned how to do links in Jekyll - enclose text in square brackets immediately followed by link in regular brackets)
