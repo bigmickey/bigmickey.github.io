@@ -33,6 +33,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+      title: "ERROR! This post has no Front Matter Title!!"
+
 name: Michael Doherty
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
