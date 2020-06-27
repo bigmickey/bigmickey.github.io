@@ -16,6 +16,14 @@ This article will take you step-by-step through scraping the bitcoin price using
 
 Installing Node.js and Cheerio
 
-Node is runtime environment that allows you to execute Javascript code. It is based on the Javascript engine from the Google Chrome browser. Installation instructions can be found [here](https://nodejs.org/en/download/package-manager/)
+Node is runtime environment that allows you to execute Javascript code. It is based on the Javascript engine from the Google Chrome browser. Installation instructions can be found [here](https://nodejs.org/en/download/)
 
-Cheerio is a Node module for handling HTTP requests and responses. Installation instructions are [here]()
+You can test your installation by running
+
+node -v
+
+which will display the version of node that has been installed. Node also comes with its own package manager, npm. Check which version of this has been installed by running 
+
+npm -v
+
+Cheerio is a Node module for handling HTTP requests and responses. You will npm to install it as described [here](https://www.npmjs.com/package/cheerio)
