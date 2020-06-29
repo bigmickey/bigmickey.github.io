@@ -17,6 +17,7 @@ We will take the current bitcoin price from the webpage located at cryptowat.ch 
     let request = require('request');
     let cheerio = require('cheerio');
 
+do the last two lines look like code?
 
 
 ## Installing Node.js and Cheerio
