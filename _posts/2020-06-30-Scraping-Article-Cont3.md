@@ -40,7 +40,7 @@ Note that now that we have something remotely useful, I have closed the request 
 
     node scrapeBTCPrice
 
-If everything goes as planned, you should see 'Cryptowatch | Your Trading Terminal' printed on the console.
+If everything goes as planned, you should see 'Cryptowatch \| Your Trading Terminal' printed on the console.
 
 
 
