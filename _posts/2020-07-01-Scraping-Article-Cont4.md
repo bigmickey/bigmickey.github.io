@@ -44,7 +44,7 @@ If everything goes as planned, you should see 'Cryptowatch \| Your Trading Termi
 
 ### Getting to the Price
 The bitcoin price we want to scrape is shown in the screenshot below.
-
+![Bitcoin price on cryptowatch]({{site.url}}/assets/images/BitcoinPriceOnCryptowatch.png){:class="img-responsive"}
 
 
 
