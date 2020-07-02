@@ -46,7 +46,9 @@ If everything goes as planned, you should see 'Cryptowatch \| Your Trading Termi
 The bitcoin price we want to scrape is shown in the screenshot below.
 ![Bitcoin price on cryptowatch]({{site.url}}/assets/images/BitcoinPriceOnCryptowatch.png){:class="img-responsive"}
 
-To figure out how to pull the price out of the webpage, we need to take a closer look at it. To do this, navigate to [cryptowat.ch](https://cryptowat.ch) and pull up your browser's developer tools. I am using the Brave browser and I do this by clicking on the menu at symbol (three horizontal bars) at the top right and selecting More Tools --> Developer Tools. 
+To figure out how to pull the price out of the webpage, we need to take a closer look at it. To do this, navigate to [cryptowat.ch](https://cryptowat.ch) and pull up your browser's developer tools. I am using the Brave browser and I do this by clicking on the menu at symbol (three horizontal bars) at the top right and selecting More Tools --> Developer Tools. This will bring up a new pane showing all the underlying HTML used to create the page. What's more, in Brave, as you mouse-over different HTML elements, the corresponding part of the webpage is highlighted which makes picking out the HTML we need really easy as you can see in this screenshot:
+
+![Picking out the price HTML]({{site.url}}/assets/images/ShowingHTMLBreakdown.png){:class='img-responsive"}
 
 
 ### Installing Node.js and Cheerio
