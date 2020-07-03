@@ -52,7 +52,7 @@ To figure out how to pull the price out of the webpage, we need to take a closer
 
 If you drill down to where the price is located in the page you will see that it is contained in this link:
 
-```
+```html
 <a class="_1roDdymkPS2zplXEDcBm0L _3z3AqahoD2pN2R7vFue-0o pointer" title="Bitcoin" href="/assets/btc" data-testid="list-row">
   <div class="text-center _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _2eU06SRnF8jtz1L2K41BsV">2</div>
   <div class="text-left _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _1TuQ_Cac70IaRi6hBmwL9">
