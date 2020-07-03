@@ -60,7 +60,7 @@ If you drill down to where the price is located in the page you will see that it
   <div class="text-left _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _2eU06SRnF8jtz1L2K41BsV">
     <i class="crypton sym-default-s sym-btc-s"></i>Bitcoin</div>
   <div class="text-right _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _1TuQ_Cac70IaRi6hBmwL9">
-    <span class="price">9082.93</span>
+    <span class="price">**9082.93**</span>
   </div>
   <div class="text-right _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _1TuQ_Cac70IaRi6hBmwL9">2.727B</div>
   <div class="text-right _2yv_NtK1R_FBVWqrvRdgcN _2jRRJJvarKXJGP9oRP-Bv0 _1TuQ_Cac70IaRi6hBmwL9">167.3B</div>
