@@ -69,6 +69,16 @@ If you drill down to where the price is located in the page you will see that it
 </a>
 ```
 
+Now we know where our price is embedded but how to we grab it? The answer is that Cheerio has a fantastic mechanism for pulling HTML elements out of the DOM. It is modeled after jQuery but as I know nothing about jQuery that doesn't really help me much! Nevertheless, it isn't difficult to grasp how it works. It is best explained with an example.
+
+Remember that in the code above we loaded the entire DOM into a variable called $ using Cheerio's load function. We apply a search function to $ simply by giving it a *selector* to match against. There is a specified set of selectors to use (you can see a list used in jQuery [here](https://www.elated.com/jquery-selectors/)). The result can be empty, a single element or an array of elements depending on what the selector matches within the DOM. We know that the bitcoin price we want is embedded in the link shown above so let's start by pulling the links out of the DOM using the appropriate selector like this: 
+
+```js
+    const allLinks = $("a");
+
+    console.log("number of links in DOM = " + allLinks.length);
+``` 
+
 ### Installing Node.js and Cheerio
 
 Node is runtime environment that allows you to execute Javascript code. It is based on the Javascript engine from the Google Chrome browser. Installation instructions can be found [here](https://nodejs.org/en/download/)
