@@ -79,6 +79,28 @@ Remember that in the code above we loaded the entire DOM into a variable called 
     console.log("number of links in DOM = " + allLinks.length);
 ``` 
 
+If you add those lines to scrapeBTCPrice.js and run it with node your output should look something like this:
+
+```
+    Cryptowatch | Your Trading Terminal
+    number of links in DOM = 125
+```
+
+This is great and we could start looping through our list of links looking for the price but Cheerio can do even better than this. Instead of querying for all links we can note that the particular link of interest has an attribute called title which has the value Bitcoin. Let's use this attribute to pull just our link out of the DOM:
+
+```js
+    const bitcoinPriceLink = $("a[title='Bitcoin']");
+```
+
+This tells Cheerio exactly which link we want. From here, we can pull the actual price out by noting that it lives in a span element with a css class called price. This is how we use Cheerio and these characteristics to get the price:
+
+```js
+    console.log("the current bitcoin price is: " + $(".price", $(bitcoinPriceLink)).text());
+```
+
+This needs a little bit of unpacking. ".price" is the selector and tells Cheerio to search for a CSS class with this name however this time we are not applying the selector to the whole DOM. Instead we tell it only to search within bitcoinPriceLink. Once Cheerio has pulled out the HTML element with that CSS class we simply pull out the text of the element which is the current bitcoin price. Hey presto! We successfully scraped the price!
+
+If you enjoyed this, you can find me on Twitter at the handle below. You can also find the code used in this article in [this repository](https://github.com/bigmickey/CheerioWebScrapeExample)
 ### Installing Node.js and Cheerio
 
 Node is runtime environment that allows you to execute Javascript code. It is based on the Javascript engine from the Google Chrome browser. Installation instructions can be found [here](https://nodejs.org/en/download/)
