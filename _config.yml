@@ -53,6 +53,12 @@ collections:
   crypto:
     output: true
     permalink: /crypto/:path/
+  TTRPG:
+    output: true
+    permalink: /TTRPG/:path/
+  technology:
+    output: true
+    permalink: /technology/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
