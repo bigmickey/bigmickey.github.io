@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Learning InkScape"
 date: 2020-06-13
 category: Journal

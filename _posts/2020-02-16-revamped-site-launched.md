@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Site Re-Launch"
 date: 2020-02-16
 category: Journal

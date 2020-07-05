@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Continuing the Web-Scraping Article"
 date: 2020-07-02
 category: Journal

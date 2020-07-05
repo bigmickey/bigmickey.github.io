@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Learning Javascript and Node"
 date: 2020-06-20
 category: Journal

@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Web Scraping Has Become Easy"
 date: 2020-07-05
-category: Technology
+category: technology
 ---
 
 Web Scraping Has Become Easy

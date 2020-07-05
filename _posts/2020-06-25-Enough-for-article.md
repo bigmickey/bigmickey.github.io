@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ready to Write an Article"
 date: 2020-06-25
 category: Journal

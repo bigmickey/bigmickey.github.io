@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jekyll Journey"
 date: 2020-05-30
 category: Journal

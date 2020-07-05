@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Successfully scraping the Bitcoin price"
 date: 2020-06-21
 category: Journal
