@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Continuing the Web-Scraping Article"
-date: 2020-07-04
-category: Journal
+title: "Web Scraping Has Become Easy"
+date: 2020-07-05
+category: Technology
 ---
 
-Scraping the Current Bitcoin Price using Javascript with Cheerio
+Web Scraping Has Become Easy
 
 ### Introduction
-This article will take you step-by-step through scraping the bitcoin price using Javascript on node.js and a clever HTTP-processing module called Cheerio. If you haven't yet installed node or Cheerio please see the links at the end of the article for details on how to do that.
+A few years ago I wanted to scrape some information from a web page and I recall the effort being quite significant. Recently I wanted to do it again but have been procrastinating because of that old memory. As it happens I have been learning more Javascript recently too so eventually I decided I would try web scraping using Javascript on node and I was very pleasantly surprised - web scraping has become easy! This article will take you step-by-step through how you can scrape the bitcoin price using Javascript, node and a clever HTTP-processing module called Cheerio. 
+
+If you haven't yet installed node or Cheerio please see the links at the end of the article for details on how to do that.
 
 ### Approach
 We will scrape the current bitcoin price from the webpage located at cryptowat.ch. The first thing we must be able to do is grab that page so that we can scrape it. Fortunately, Cheerio makes this a piece of cake. Before we do anything else, we tell node.js about the modules that we want to use - one that is in-built called Request and, of course, Cheerio:
