@@ -1,7 +1,7 @@
 ---
 title: "Continuing the Web-Scraping Article"
 date: 2020-07-04
-category: Journal
+category: technology
 ---
 
 Scraping the Current Bitcoin Price using Javascript with Cheerio
