@@ -12,6 +12,13 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
+{% comment %} try adding pages here {% endcomment %}
+pages should appear here:
+{% assign pages = site.pages %}
+{% for page in pages %}
+  {% include archive-single-page.html %}
+{% endfor %}
+
 {% for post in posts %}
   {% include archive-single.html %}
 {% endfor %}
