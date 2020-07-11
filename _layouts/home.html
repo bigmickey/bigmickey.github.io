@@ -19,6 +19,17 @@ pages should appear here:
   {% include archive-single-page.html %}
 {% endfor %}
 
+{% comment %} try adding collections here {% endcomment %}
+collections should appear here:
+<ul>
+  {% for ttrpg in site.TTRPG %}
+  <li>
+    <a href="{{ ttrpg.url }}">{{ ttrpg.title }}</a>
+    - {{ ttrpg.headline }}
+  </li>
+  {% endfor %}
+</ul>
+
 {% for post in posts %}
   {% include archive-single.html %}
 {% endfor %}

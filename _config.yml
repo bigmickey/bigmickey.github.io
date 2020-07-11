@@ -92,31 +92,32 @@ defaults:
 
   
 
-breadcrumbs: true
+# breadcrumbs: true
 search: true
+ 
+# jekyll-archives:
+#   enabled: 
+#     - categories
+#   layout: archive
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
 
-jekyll-archives:
-  enabled: 
-    - categories
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 
 name: Michael Doherty
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 verbose: true
+
 collections:
   travel:
     output: true
