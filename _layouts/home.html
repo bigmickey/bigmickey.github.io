@@ -21,11 +21,32 @@ pages should appear here:
 
 {% comment %} try adding collections here {% endcomment %}
 collections should appear here:
+TTRPG
 <ul>
   {% for ttrpg in site.TTRPG %}
   <li>
     <a href="{{ ttrpg.url }}">{{ ttrpg.title }}</a>
     - {{ ttrpg.headline }}
+  </li>
+  {% endfor %}
+</ul>
+
+Crypto
+<ul>
+  {% for currentCrypto in site.crypto %}
+  <li>
+    <a href="{{ currentCrypto.url }}">{{ currentCrypto.title }}</a>
+    - {{ currentCrypto.headline }}
+  </li>
+  {% endfor %}
+</ul>
+
+Technology
+<ul>
+  {% for currentTech in site.technology %}
+  <li>
+    <a href="{{ currentTech.url }}">{{ currentTech.title }}</a>
+    - {{ currentTech.headline }}
   </li>
   {% endfor %}
 </ul>

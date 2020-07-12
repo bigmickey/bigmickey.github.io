@@ -2,6 +2,7 @@
 title: "Web Scraping Has Become Easy"
 date: 2020-07-05
 category: technology
+headline: "How to Scrape the Current Bitcoin Price"
 ---
 
 Web Scraping Has Become Easy
