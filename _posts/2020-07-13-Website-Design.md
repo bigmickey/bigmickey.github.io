@@ -9,3 +9,9 @@ Finally I have managed to figure out how to get my non-posts to appear on my Jek
 Now that I have the basics it is time to think a bit harder about the site design itself ... and here is the very rough outline of what I'd like in the first instance:
 
 ![Rough Website Design]({{site.url}}/assets/images/websitedesign.jpg){:class="img-responsive"}
+
+As it happens, the Minimal Mistakes Jekyll theme Collections example looks very similar:
+
+![Minimal Designs Collections Example]({{site.url}}/assets/images/MinimalMistakesCollectionsPage.png){:class="img-responsive"}
+
+[Here's the link](https://mmistakes.github.io/minimal-mistakes/collection-archive/). Now I just need to figure out how that's done :)
