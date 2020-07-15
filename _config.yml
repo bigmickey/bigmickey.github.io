@@ -88,8 +88,41 @@ logo                     : "/assets/images/ShowingHTMLBreakdown.png"
 #  name                   : # If the user or organization name differs from the site's name
 #  links: # An array of links to social media profiles 
 
+## Analytics
+#analytics:
+#  provider               : false # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id          :
+#    anonymize_ip         : # true, false (default)
 
-email: dohertym12@hotmail.com
+# Site Author
+author:
+  name             : "Michael Doherty"
+  avatar           : "/asset/images/bio-photo.jpg"
+  bio              : "Proud nerd"
+  location         : "Currently Asia"
+  email            : "dohertym12@hotmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dohertym12@hotmail.com"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https:/twitter.com/dohertym12"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-gitub"
+      url: "https://github.com/bigmickey"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url: "https://instagram.com/"
+
+
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my Github Pages website where I blog about anything that interests me and experiment with website building technologies. 
   Favourite topics include Technology, Programming, Economics, Travel and TTRPGs.
@@ -196,19 +229,6 @@ collections:
     output: true
   technology:
     output: true
-
-author:
-  name: Michael Doherty
-  avatar: "/asset/images/bio-photo.jpg"
-  bio: "Proud nerd"
-  location: "Currently Asia"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https:/twitter.com/dohertym12"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-gitub"
-      url: "https://github.com/bigmickey"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
