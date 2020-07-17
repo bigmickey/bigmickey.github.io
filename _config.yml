@@ -25,8 +25,11 @@ title                    : "Games and Tech and Travel oh my!"
 # subtitle                 : # site tagline that appears below site title in masthead
 # name                     : "Your Name"
 # description              : "An amazing website."
+description              : "Welcome to my Github Pages website where I blog about anything that interests me and experiment with website building technologies.  Favourite topics include Technology, Programming, Economics, Travel and TTRPGs."
 # url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://bigmickey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl: "" # the subpath of your site, e.g. /blog
 # repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -74,8 +77,9 @@ logo                     : "/assets/images/ShowingHTMLBreakdown.png"
 # naver_site_verification  :
 #
 ## Social Sharing
-#twitter:
-#  username               :
+#twitter_username: dohertym12
+twitter:
+  username               : "dohertym12"
 #facebook:
 #  username               :
 #  app_id                 :
@@ -118,6 +122,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-gitub"
       url: "https://github.com/bigmickey"
+#github_username:  bigmickey
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      # url: "https://instagram.com/"
@@ -145,14 +150,6 @@ footer:
       # url:
 
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my Github Pages website where I blog about anything that interests me and experiment with website building technologies. 
-  Favourite topics include Technology, Programming, Economics, Travel and TTRPGs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bigmickey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dohertym12
-github_username:  bigmickey
-paginate: 10
 
 # Build settings
 # theme: minimal-mistakes-jekyll
@@ -165,6 +162,19 @@ plugins:
   # added to support minimal mistakes theme on GitHub Pages
   - jekyll-include-cache
 
+## Defaults
+#defaults:
+#  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: # true
+#      share: true
+#      related: true
 defaults:
   # _posts
   - scope:
@@ -173,6 +183,7 @@ defaults:
     values:
       layout: single
       # layout: post
+      author_profile: true
       read_time: true
       comments: true
       share: true
@@ -185,6 +196,12 @@ defaults:
     values:
       layout: single
       # layout: page
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      title: "ERROR! This page has no Front Matter Title!!"
   # _travel
   - scope:
       path: ""
@@ -192,6 +209,12 @@ defaults:
     values:
       layout: single
       # layout: page
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      title: "ERROR! This page has no Front Matter Title!!"
   # _crypto
   - scope:
       path: ""
@@ -199,6 +222,12 @@ defaults:
     values:
       layout: single
       # layout: page
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      title: "ERROR! This page has no Front Matter Title!!"
   # _TTRPG
   - scope:
       path: ""
@@ -206,6 +235,12 @@ defaults:
     values:
       layout: single
       # layout: page
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      title: "ERROR! This page has no Front Matter Title!!"
   # _technology
   - scope:
       path: ""
@@ -213,8 +248,12 @@ defaults:
     values:
       layout: single
       # layout: page
-
-  
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      title: "ERROR! This page has no Front Matter Title!!"
 
 # breadcrumbs: true
 search: true
@@ -338,6 +377,7 @@ collections:
 ## Outputting
 #permalink: /:categories/:title/
 #paginate: 5 # amount of posts to show
+#paginate: 10
 #paginate_path: /page:num/
 #timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -393,16 +433,3 @@ collections:
 #    envs: development
 
 
-## Defaults
-#defaults:
-#  # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: single
-#      author_profile: true
-#      read_time: true
-#      comments: # true
-#      share: true
-#      related: true
