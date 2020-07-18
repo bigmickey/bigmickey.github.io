@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# locale                   : "en-US"
-# title                    : "Site Title"
+locale                   : "en-GB"
 title                    : "Games and Tech and Travel oh my!"
-# title_separator          : "-"
+title_separator          : "-"
 # subtitle                 : # site tagline that appears below site title in masthead
-# name                     : "Your Name"
+name                     : "Michael Doherty"
 # description              : "An amazing website."
-description              : "Welcome to my Github Pages website where I blog about anything that interests me and experiment with website building technologies.  Favourite topics include Technology, Programming, Economics, Travel and TTRPGs."
-# url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url: "https://bigmickey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description              : "My website where I blog about anything that interests me and experiment with website building technologies.  Favourite topics include Technology, Programming, Economics, Travel and TTRPGs. Home to Icebound Kingdoms resources."
+url                      : "https://bigmickey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl                  : # the subpath of your site, e.g. "/blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 # repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "bigmickey/bigmickey.github.io"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/Teaser.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 logo                     : "/assets/images/ShowingHTMLBreakdown.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
