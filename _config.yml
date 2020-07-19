@@ -105,7 +105,7 @@ author:
   avatar           : "/asset/images/bio-photo.jpg"
   bio              : "Proud nerd"
   location         : "Currently Asia"
-  email            : "dohertym12@hotmail.com"
+#  email            : "dohertym12@hotmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
