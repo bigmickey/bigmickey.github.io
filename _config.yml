@@ -265,16 +265,6 @@ defaults:
 # breadcrumbs: true
 search: true
  
-# jekyll-archives:
-#   enabled: 
-#     - categories
-#   layout: archive
-#  permalinks:
-#    year: '/:year/'
-#    month: '/:year/:month/'
-#    day: '/:year/:month/:day/'
-#    tag: '/tag/:name/'
-#    category: '/category/:name/'
 
 #category_archive:
 #  type: liquid
@@ -283,9 +273,7 @@ search: true
 #  type: liquid
 #  path: /tags/
 
-name: Michael Doherty
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
 verbose: true
 
 collections:
@@ -381,8 +369,9 @@ collections:
 #  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-## Outputting
-#permalink: /:categories/:title/
+# Outputting
+permalink: /:categories/:title/
+#permalink: /blog/:year/:month/:day/:title
 #paginate: 5 # amount of posts to show
 #paginate: 10
 #paginate_path: /page:num/
@@ -431,6 +420,16 @@ collections:
 ##   permalinks:
 ##     category: /categories/:name/
 ##     tag: /tags/:name/
+# jekyll-archives:
+#   enabled: 
+#     - categories
+#   layout: archive
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
 
 ## HTML Compression
 ## - https://jch.penibelst.de/
