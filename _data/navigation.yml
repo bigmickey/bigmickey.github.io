@@ -4,6 +4,7 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About"
      url: /
+     description: "Testing About hover-over"
    - title: "Posts"
      url: /posts/
    - title: "Categories"
