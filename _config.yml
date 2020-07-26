@@ -36,6 +36,7 @@ teaser                   : "/assets/images/Teaser.png"
 logo                     : "/assets/images/ShowingHTMLBreakdown.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # # breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 # comments:
 #   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -257,7 +258,6 @@ defaults:
       related: true
       title: "ERROR! This page has no Front Matter Title!!"
 
-# breadcrumbs: true
 search: true
  
 
