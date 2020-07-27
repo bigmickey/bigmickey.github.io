@@ -103,7 +103,7 @@ twitter:
 # Site Author
 author:
   name             : "Michael Doherty"
-  avatar           : "/asset/images/bio-photo.jpg"
+  avatar           : "/assets/images/ShowingHTMLBreakdown.png" # "/asset/images/bio-photo.jpg"
   bio              : "Proud nerd"
   location         : "Currently Asia"
 #  email            : "dohertym12@hotmail.com"
