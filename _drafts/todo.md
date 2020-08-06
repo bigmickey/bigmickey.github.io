@@ -5,6 +5,7 @@ Biz plan
  - direct Twitter audience to website content
  - collect email addresses from website visitors
    - find out if Jekyll supports collecting email addresses
+     - @patio11 says he uses a ruby app behind his website to collect email addresses - run on an AWS VPN
  - create paid content
  - add ability to accept payments to website
  - market to Twitter and email audiences
