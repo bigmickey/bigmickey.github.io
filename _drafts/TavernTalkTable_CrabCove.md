@@ -20,3 +20,4 @@ headline: "Roll to determine what the PCs overhear"
 12 .. The clans of Great Fang - Boarmoars (Great Fang), Riders (Great Fang)
 13 .. Grendel's Oak - Grendel is elven chieftain. His home is an enormous oak. Currently he has left his half-elf daughter Grendellan in charge.
 14 .. Wedding between Bloodan Warrer (heir) and Mary Gremoss daughter but she is in love with Bloodan's younger brother Yarlin.
+15 .. Merchant of rare and sometimes illegal goods e.g. goblet carved from the shell of a silver dragon egg, special material components
