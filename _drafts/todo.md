@@ -9,4 +9,5 @@ Biz plan
      - @patio11 says he uses a ruby app behind his website to collect email addresses - run on an AWS VPN
  - create paid content
  - add ability to accept payments to website
+   - balaji has stuff here on registering as an individual with Stripe https://balajis.com/set-up-a-paid-newsletter-at-your-own-domain/ 
  - market to Twitter and email audiences
