@@ -1,8 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "Index Page"
+title: "Subscribe to mailing list"
 layout: home
 ---
-
-this is a test
+Never miss the latest TTRPG resource updates - enter you email address here
