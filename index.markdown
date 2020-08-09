@@ -4,4 +4,4 @@
 title: "Subscribe to mailing list"
 layout: home
 ---
-Never miss the latest TTRPG resource updates - enter you email address here
+Never miss the latest TTRPG resource updates - enter you email address [here](/email_signup)
