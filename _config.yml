@@ -146,6 +146,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bigmickey"
+    - label: "Subscribe for TTRPG resource updates"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://form.jotform.com/202211273537446"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
       # url:
