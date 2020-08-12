@@ -13,6 +13,7 @@ Ongoing
 
 
 Done
-   - find out if Jekyll supports collecting email addresses - eventually did it using jotform.com
+ - get Twitter developer API keys  
+ - find out if Jekyll supports collecting email addresses - eventually did it using jotform.com
      - get API token from SimpleForm and figure out how to add email collection to sidebar
      - @patio11 says he uses a ruby app behind his website to collect email addresses - run on an AWS VPN
