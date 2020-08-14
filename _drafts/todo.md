@@ -1,4 +1,6 @@
 Biz plan
+ - create content
+   - create Tavern Talk random encounter table
  - direct Twitter audience to website content
  - collect email addresses from website visitors
  - create paid content
