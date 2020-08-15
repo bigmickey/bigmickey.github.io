@@ -6,6 +6,8 @@ headline: "Why this $20tn Asteroid won't make Larry Page Rich(er)"
 ---
 Why This $20 Trillion Asteroid Won’t Make Larry Page Rich(er)
 
+![Elite]({{site.url}}/assets/images/AsteroidMining.jpg){:class="img-responsive"}
+
 Recently it was [reported](https://mashable.com/2012/04/26/planetary-resources-asteroid-mining-trillions/#329zeI7l9Gqi) that a Page-backed startup called Planetary Resources is planning a mission to mine an asteroid called Amun 3554 that contains an estimated $20 trillion worth of resources including $8 trillion of platinum.  It is easy to see why it is such an attractive target for a futuristic space mining operation.
 
 If any venture were ever able to recover these resources, however, they would quickly discover they are far less rich than estimated based on the current prices of resources here on earth.  The reason is, of course, the prices of the resources are correlated with the relative scarcity of the material.  In the event that a space miner were able to increase the abundance of the resource significantly, it would no longer have the value currently attached to it.  In other words, Planetary Resources and Amun 3554 are to platinum what Captain David O’Keefe and his imported rocks were to the Stone Money of Yap.
