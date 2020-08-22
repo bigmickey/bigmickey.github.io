@@ -22,7 +22,7 @@ locale                   : "en-GB"
 title                    : "Games and Tech and Travel oh my!"
 title_separator          : "-"
 # subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Michael Doherty"
+name                     : "Michael"
 # description              : "An amazing website."
 description              : "My website where I blog about anything that interests me and experiment with website building technologies.  Favourite topics include Technology, Programming, Economics, Travel and TTRPGs. Home to Icebound Kingdoms resources."
 url                      : "https://bigmickey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -102,12 +102,15 @@ twitter:
 
 # Site Author
 author:
-  name             : "Michael Doherty"
-  avatar           : "/assets/images/ShowingHTMLBreakdown.png" # "/asset/images/bio-photo.jpg"
+  name             : "Michael"
+  avatar           : "/assets/images/dohertym12TwitterProfilePic.jpg" # "/asset/images/bio-photo.jpg"
   bio              : "Proud nerd"
   location         : "Currently Asia"
 #  email            : "dohertym12@hotmail.com"
   links:
+    - label: "Subscribe for TavernTalk updates"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://form.jotform.com/202211273537446"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:dohertym12@hotmail.com"
