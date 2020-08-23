@@ -9,7 +9,7 @@ headline: "Roll to determine what the PCs overhear"
 1 .. As Rich As A Covian
 2 .. Ballad of Raegarth and Etheroulla
 3 .. Planky Town and options for travel across Dragon Straits
-4 .. Lune Dragon acolytes (Brother Callum and Sister Cowley) from Great Snout island 5 days sail west of Dragon's Neck island
+4 .. Lunar Dragon acolytes (Brother Callum and Sister Cowley) from Great Snout island 5 days sail west of Dragon's Neck island
 5 .. Dwayne Rock - roll again but he isn't as knowledgeable
 6 .. Erolf the Orc and his Swordfort
 7 .. Goodwood / Wildwood encroachment
