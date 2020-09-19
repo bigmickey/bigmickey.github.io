@@ -1,0 +1,1 @@
+Crab Cove could be any coastal town in your fantasy campaign. If your players are relaxing in the local tavern, roll to see who they meet and what local gossip, legends and folklore, useful information or even adventure hooks they have to share.
