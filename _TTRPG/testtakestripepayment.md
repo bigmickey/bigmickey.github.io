@@ -9,12 +9,7 @@ Lets's see if I can take a payment ..
 <script src="https://js.stripe.com/v3"></script>
 
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-price_1HSxR9JXz6foPx50VQp3gg0F"
-  role="link"
-  type="button"
->
+<button style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em" id="checkout-button-price_1HSxR9JXz6foPx50VQp3gg0F" role="link" type="button" >
   Checkout
 </button>
 
