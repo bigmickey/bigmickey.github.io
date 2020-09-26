@@ -17,8 +17,7 @@ Lets's see if I can take a payment ..
 
 <script>
 (function() {
-  var stripe = Stripe('pk_test_51HSxCEJXz6foPx50Cr5SBaeoCihBRrZaOVuZZJ4EmDEMQ9bUBbk5wR2sFIzOmG9LrwqZ1SDGVgWXr4gYeRZzynp1001AvI1jsv');
-
+  var stripe = Stripe('pk_test_51HSxCEJXz6foPx50Cr5SBaeoCihBRrZaOVuZZJ4EmDEMQ9bUBbk5wR2sFIzOmG9LrwqZ1SDGVgWXr4gYeRZzynp1001AvI1jsv'); 
   var checkoutButton = document.getElementById('checkout-button-price_1HSxR9JXz6foPx50VQp3gg0F');
   checkoutButton.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
