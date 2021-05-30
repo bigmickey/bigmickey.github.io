@@ -8,9 +8,12 @@ headline: "Building A Simple Website"
 Building A Simple Website
 
 ### Introduction
-I want to 
-### Approach
-We will scrape the current bitcoin price from the webpage located at cryptowat.ch. The first thing we must be able to do is grab that page so that we can scrape it. Fortunately, Cheerio makes this a piece of cake. Before we do anything else, we tell node.js about the modules that we want to use - one that is in-built called Request and, of course, Cheerio:
+I want to explore ways to build and publish websites. I will take a look at some services like Webflow and Carrd but I came across [this approach](https://tinyprojects.dev/guides/tiny_website) recently and decided to give it a try first.
+
+### Going Through The Process
+The first part is simple enough - just creating a file called index.html in a directory called public - so far, so familiar. The next step was new to me however - creating a project in Google Firebase. A little Googling revealed that this is a backend framework for building apps. I figured Google wouldn't be the only one in this space and quickly discovered Amazon's competing product, AWS Amplify. Ingtriguing. However since these are primarily app-related products I will save more research on these for another day.
+
+This was enough to warrant starting to write this post and it was then that I learned that Github are deprecating their username / password access from the command line. Now I need to use a Personal Access Token. Another diversion from my little project - but you can find the details [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) if this affects you.
 
     let request = require('request');
     let cheerio = require('cheerio');
