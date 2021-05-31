@@ -15,6 +15,17 @@ The first part is simple enough - just creating a file called index.html in a di
 
 This was enough to warrant starting to write this post and it was then that I learned that Github are deprecating their username / password access from the command line. Now I need to use a Personal Access Token. Another diversion from my little project - but you can find the details [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) if this affects you.
 
+The next snag I encountered was trying to run 
+
+    firebase init
+
+after a few moments I received this error message:
+
+    Error: Failed to authenticate, have you run firebase login?
+
+
+
+
     let request = require('request');
     let cheerio = require('cheerio');
 
