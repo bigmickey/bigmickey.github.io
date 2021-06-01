@@ -50,12 +50,9 @@ This time I was presented with:
      ◯ Emulators: Set up local emulators for Firebase features
      ◯ Remote Config: Get, deploy, and rollback configurations for Remote Config
 
-As per the instructions I selected Hosting: Configure and deploy Firebase Hosting sites.
+As per the instructions I selected Hosting: Configure and deploy Firebase Hosting sites. The rest of the steps were straightforward with the exception of one additional question to answer that didn't appear in the article:
 
-    let request = require('request');
-    let cheerio = require('cheerio');
-
-With the request library now available, we can use its functionality to pull the HTTP response from cryptowat.ch like this:
+    ? Set up automatic builds and deploys with GitHub? No
 
 ```js
     request({
