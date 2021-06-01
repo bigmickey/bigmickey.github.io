@@ -50,7 +50,7 @@ This time it became clear that the author of the original article must have alre
      ◯ Emulators: Set up local emulators for Firebase features
      ◯ Remote Config: Get, deploy, and rollback configurations for Remote Config
 
-
+After doing zero research, I plumped for selecting all of them :)
 
     let request = require('request');
     let cheerio = require('cheerio');
