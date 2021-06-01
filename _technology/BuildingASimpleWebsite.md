@@ -28,7 +28,7 @@ I returned to the Firebase project page and I noticed that it had detected my Go
 
     firebase init
 
-This time it became clear that the author of the original article must have already configured Firebase.
+This time I was presented with:
 
          ######## #### ########  ######## ########     ###     ######  ########
          ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -50,7 +50,7 @@ This time it became clear that the author of the original article must have alre
      ◯ Emulators: Set up local emulators for Firebase features
      ◯ Remote Config: Get, deploy, and rollback configurations for Remote Config
 
-After doing zero research, I plumped for selecting all of them :)
+As per the instructions I selected Hosting: Configure and deploy Firebase Hosting sites.
 
     let request = require('request');
     let cheerio = require('cheerio');
