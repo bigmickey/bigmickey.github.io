@@ -38,7 +38,7 @@ This time I was presented with:
 
     You're about to initialize a Firebase project in this directory:
 
-      /Users/Michael/MDStuff/dev/SimpleWebsite
+      /Users/SimpleWebsite
 
     ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices. (Press
       <space> to select, <a> to toggle all, <i> to invert selection)
