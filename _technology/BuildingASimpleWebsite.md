@@ -58,7 +58,7 @@ Once complete I executed the final command
 
     firebase deploy
 
-When the deploy was complete Firebase reported that I could view my simple website here: https://simple-website-1.web.app - as of the time of writing it is still viewable. Go ahead and take a look (fair warning it is very underwhelming!)
+When the deploy was complete Firebase reported that I could view my simple website here: [https://simple-website-1.web.app](https://simple-website-1.web.app) - as of the time of writing it is still viewable. Go ahead and take a look (fair warning it is very underwhelming!)
 
 The article continues to show how to tie your own domain name to the website but that is an adventure for another day. Thanks for reading.
 
