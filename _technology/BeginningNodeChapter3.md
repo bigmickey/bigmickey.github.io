@@ -32,4 +32,5 @@ Clicking on one of the links from the home page will bring you to the correct pa
 
 Thanks for reading :)
 
+PS I just finished reading Chapter 3 and this 'bug' is pointed out in the closing paragraphs LOL! Still better to have solved it myself - now I think I will appreciate chapter 4 more ...
 
